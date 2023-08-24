@@ -10,6 +10,7 @@ const Items = ({items}) =>{
             <td>{items.description}</td>
             <td>{items.price}</td>
             <td>{items.rating.rate} out of 5</td>
+            <img src={items.image}/>
           </tr>
           </tr>
           ))}
